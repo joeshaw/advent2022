@@ -2,6 +2,8 @@
 
 Continuing the conversation from Day 2, part 2.  ChatGPT produced both Go and Rust versions that are complete and correct.
 
+Run the Go version with `go run rucksack.go`.  Run the Rust version with `rustc rucksack.rs && ./rucksack`.
+
 ## Prompt
 
 Moving onto the next day's puzzles.  Part 1 is given in the prompt below.  As before, you must generate a complete program and may use any of the pre-approved programming languages.  The input is given in an `input.txt` file.
