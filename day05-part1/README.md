@@ -2,7 +2,7 @@
 
 Hoo boy.  I thought I was going to give up on this one.  ChatGPT really struggled to understand the columnar nature of the input.  I tried a lot of different tactics but the one that ultimately worked is below.
 
-This one was a lot more conversational and interative.  Once I was able to get it to output a reasonable program and pivot it to understanding columns, I was able to slowly get it to a program that gave the right answer.
+This one was a lot more conversational and interactive.  Once I was able to get it to output a reasonable program and pivot it to understanding columns, I was able to slowly get it to a program that gave the right answer.
 
 The code is really ugly, and not at all how I would have written it.  But it works.
 
@@ -38,7 +38,9 @@ The prompt will follow below.  I'll put code and ASCII diagrams in triple backti
 > In earlier attempts I felt that ChatGPT struggled with the formatting of the prompt.  I modified the prompt to code fence the bits that were input to be processed.
 
 The prompt:
+
 ---
+
 The expedition can depart as soon as the final supplies have been unloaded from the ships. Supplies are stored in stacks of marked crates, but because the needed supplies are buried under many other crates, the crates need to be rearranged.
 
 The ship has a giant cargo crane capable of moving crates between stacks. To ensure none of the crates get crushed or fall over, the crane operator will rearrange them in a series of carefully-planned steps. After the crates are rearranged, the desired crates will be at the top of each stack.
@@ -103,6 +105,7 @@ Finally, one crate is moved from stack 1 to stack 2:
 The Elves just need to know which crate will end up on top of each stack; in this example, the top crates are C in stack 1, M in stack 2, and Z in stack 3, so you should combine these together and give the Elves the message CMZ.
 
 After the rearrangement procedure completes, what crate ends up on top of each stack?
+
 ---
 
 Ignore the example drawings from the prompt.  Use this sample input instead:
