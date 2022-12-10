@@ -23,6 +23,8 @@ It proved very difficult to get it to output this on one line!  And eventually C
 
 Given that I lost my conversation state, though, I am not sure how I am going to solve part 2, which will be a variation on this problem.  Hopefully pasting in the generated code will be enough!
 
+Run the generated code with `go run crates.go`.
+
 Below is the full conversation.  I've added block quotes inline for additional commentary.
 
 ## Conversation
