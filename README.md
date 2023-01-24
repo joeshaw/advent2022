@@ -14,4 +14,6 @@ In each directory there is a README that gives some commentary, the prompt I pro
 
 We'll see how far I get with this.
 
+**Update**: I made it 6 days.  On day 7, ChatGPT wasn't able to generate enough code with its limited runtime budget to solve the problem, although the code was directionally correct.  After trying for a few days (and waiting out overloaded servers), I gave up.  It was fun though!
+
 ![](chatgpt.png)
